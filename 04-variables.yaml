@@ -5,5 +5,5 @@
     name2: "Purva"
   tasks:
     name: Print names
-    ansible.builtin.debug  
+    ansible.builtin.debug:  
       msg: "{{name1}} says hello to {{name2}}"
