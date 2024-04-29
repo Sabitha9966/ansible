@@ -1,0 +1,9 @@
+- name: variables
+  hosts: localhost
+  vars:
+    name1: "sabitha"
+    name2: "Purva"
+  tasks:
+    name: Print names
+    ansible.builtin.debug  
+      msg: "{{name1}} says hello to {{name2}}"
